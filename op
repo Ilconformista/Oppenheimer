@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video and Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding-top: 20px;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        form {
+            text-align: left;
+            margin: auto;
+            max-width: 600px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Test Page</h1>
+        <video controls>
+            <source src="your-video-url.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <form>
+            <div class="form-group">
+                <label for="question1">Question 1: What is the capital of France?</label>
+                <select id="question1" name="question1">
+                    <option value="paris">Paris</option>
+                    <option value="london">London</option>
+                    <option value="berlin">Berlin</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question2">Question 2: Is the sky blue?</label>
+                <input type="radio" id="yes" name="question2" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="question2" value="no">
+                <label for="no">No</label>
+            </div>
+            <div class="form-group">
+                <label for="question3">Question 3: Describe your experience with the video.</label>
+                <textarea id="question3" name="question3" rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
