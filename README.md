@@ -5,6 +5,7 @@
 + [QR code](https://github.com/junkyuhufs/HUFSworkshop/raw/main/data/myqrcode.png)
     
 ### Sample
+:sad:
 + [App Link2](https://ejun123-ReadAloud.hf.space)
 + [QR code generator](https://mrkim21.github.io/appfolder/qrcode.html)
 
